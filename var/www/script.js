@@ -1,0 +1,1 @@
+/var/www/script.js
