@@ -1,1 +1,1 @@
-/var/www/status_mjpeg.txt
+/dev/shm/mjpeg/status_mjpeg.txt

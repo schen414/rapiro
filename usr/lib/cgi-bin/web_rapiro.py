@@ -99,36 +99,49 @@ elif "Submit22" in form:
     ser = serial.Serial(connection, 57600, timeout=10)
     ser.write("#PR000G000B000T001")
 elif "Submit23" in form:
-#    subprocess.call("mpg321 MrRoboto_loop.mp3", shell=True)
+    #subprocess.call("mpg321 MrRoboto_loop.mp3", shell=True)
     process = subprocess.Popen(['mpg321', 'MrRoboto_loop.mp3'])
     subprocess.call("python roboto.py", shell=True)
     #subprocess.call("python roboto.py", shell=True)
 elif "Submit24" in form:
-    subprocess.call("python gmail-cron.py", shell=True)
+    subprocess.call('python gmail-cron.py', shell=True)
+elif "TTS" in form:
+    rate = form.getvalue('rate')
+    lang = form.getvalue('language')
+    sms = form.getvalue('txtText')
+    subprocess.call('python rsstts.py %s %s "%s"' % (rate, lang, sms), shell=True)
+#	print form.getvalue('ddlLanguage')
 else:
     print "Error"
 
 print """<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-	<html xmlns="http://www.w3.org/1999/xhtml">
+ 	<html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-	<link rel="stylesheet" type="text/css" href="/control.css">
-
-	<title>Rapiro Control</title>
-	<script src="/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/control.css">
+        <link rel="stylesheet" href="/css/style_minified.css" />
+        <link rel="stylesheet" href="/css/es_Default.css" />
+        <script src="/js/style_minified.js"></script>
+        <script src="/js/script.js"></script>
+        <script src="/js/pipan.js"></script>
 	</head>
-
    <body onload="setTimeout('init();', 100);">
     <center>
-      <h1>RaPiRo Cam</h1>
-      <div><img id="mjpeg_dest"></div>
-      <input id="video_button" type="button">
-      <input id="image_button" type="button">
-      <input id="timelapse_button" type="button">
-      <input id="md_button" type="button">
-      <input id="halt_button" type="button">
-      <p><a href="/preview.php">Download Videos and Images</a></p>
+         <h1>RaPiRo Cam</h1>
+         <div><img id="mjpeg_dest"  onclick="toggle_fullscreen(this);" src="/loading.jpg"></div>
+         <div id="main-buttons" style="display:block;" >
+            <input id="video_button" type="button" class="btn btn-primary">
+            <input id="image_button" type="button" class="btn btn-primary">
+            <input id="timelapse_button" type="button" class="btn btn-primary">
+            <input id="md_button" type="button" class="btn btn-primary">
+            <input id="halt_button" type="button" class="btn btn-danger">
+         </div>
+
+       <div id="secondary-buttons" class="container-fluid text-center" style="display:block;" >
+         <a href="/preview.php" class="btn btn-default">Download Videos and Images</a>
+         <a href="/motion.php" class="btn btn-default">Edit motion settings</a>
+         <a href="/schedule.php" class="btn btn-default">Edit schedule settings</a>
+       </div>
 
        <form action="/cgi-bin/web_rapiro.py" method="post">
 	<table width="100%" border="1">
@@ -173,6 +186,70 @@ print """<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://
 	  <td><div class="submit11"><INPUT type="submit" name="Submit11" value=" "/></div></td>
 	  <td><div class="submit17"><INPUT type="submit" name="Submit17" value=" "/></div></td>
 	  <td><div class="submit19"><INPUT type="submit" name="Submit19" value=" "/></div></td>
+	  </tr>
+	</table>
+
+
+	<table width="100%">
+	<tr>
+	  <td align="center">
+	  	<textarea name="txtText" rows="7" style="width:60%" class="text_box">text to speech</textarea>
+		<br>
+	  	<select name="rate" style="vertical-align: top; "width: 10px" class="text_box">
+	  		<option value="">- Select Speed -</option>
+                	<option value="-10">-10</option>
+                	<option value="-9">-9</option>
+                	<option value="-8">-8</option>
+                	<option value="-7">-7</option>
+                	<option value="-6">-6</option>
+                	<option value="-5">-5</option>
+                	<option value="-4">-4</option>
+                	<option value="-3">-3</option>
+                	<option value="-2">-2</option>
+                	<option value="-1">-1</option>
+                	<option selected="selected" value="0">0</option>
+                	<option value="1">1</option>
+                	<option value="2">2</option>
+                	<option value="3">3</option>
+                	<option value="4">4</option>
+                	<option value="5">5</option>
+                	<option value="6">6</option>
+                	<option value="7">7</option>
+                	<option value="8">8</option>
+                	<option value="9">9</option>
+                	<option value="10">10</option>
+		</select>
+	  	<select name="language" style="vertical-align: top; "width: 200px" class="text_box">
+	  		<option value="">------- Select language -------</option>
+                	<option value="ca-es">Catalan</option>
+                	<option value="zh-cn">Chinese (China)</option>
+	                <option value="zh-hk">Chinese (Hong Kong)</option>
+        	        <option value="zh-tw">Chinese (Taiwan)</option>
+                	<option value="da-dk">Danish</option>
+	                <option value="nl-nl">Dutch</option>
+        	        <option value="en-au">English (Australia)</option>
+                	<option value="en-ca">English (Canada)</option>
+	                <option value="en-gb">English (Great Britain)</option>
+        	        <option value="en-in">English (India)</option>
+                	<option selected="selected" value="en-us">English (United States)</option>
+	                <option value="fi-fi">Finnish</option>
+        	        <option value="fr-ca">French (Canada)</option>
+                	<option value="fr-fr">French (France)</option>
+	                <option value="de-de">German</option>
+        	        <option value="it-it">Italian</option>
+                	<option value="ja-jp">Japanese</option>
+	                <option value="ko-kr">Korean</option>
+        	        <option value="nb-no">Norwegian</option>
+                	<option value="pl-pl">Polish</option>
+	                <option value="pt-br">Portuguese (Brazil)</option>
+        	        <option value="pt-pt">Portuguese (Portugal)</option>
+                	<option value="ru-ru">Russian</option>
+	                <option value="es-mx">Spanish (Mexico)</option>
+        	        <option value="es-es">Spanish (Spain)</option>
+                	<option value="sv-se">Swedish (Sweden)</option>
+                </select>
+	  	<input type="submit" name="TTS" value="Speech Text"/>
+	  </td>
 	  </tr>
 	</table>
         </form>

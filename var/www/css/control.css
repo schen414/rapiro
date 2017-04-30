@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.submit1 input {
+background:url(/Arrow-Up-icon.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit2 input {
+background:url(/Arrow-Left-icon.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit3 input {
+background:url(/Stop-icon.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit4 input {
+background:url(/Arrow-Right-icon.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit5 input {
+background:url(/Arrow-Down-icon.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit6 input {
+background:url(/A.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit7 input {
+background:url(/B.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit8 input {
+background:url(/C.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit9 input {
+background:url(/D.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit10 input {
+background:url(/E.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit11 input {
+background:url(/halt.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit12 input {
+background:url(/lila.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit13 input {
+background:url(/lira.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit14 input {
+background:url(/lola.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit15 input {
+background:url(/lora.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit16 input {
+background:url(/glh.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit17 input {
+background:url(/grh.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit18 input {
+background:url(/rlh.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit19 input {
+background:url(/rrh.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit20 input {
+background:url(/hyl.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit21 input {
+background:url(/hyr.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit22 input {
+background:url(/tlo.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit23 input {
+background:url(/roboto.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}
+div.submit24 input {
+background:url(/mail.jpg) no-repeat;
+cursor:pointer;
+width: 125px;
+height: 125px;
+border: none;
+}

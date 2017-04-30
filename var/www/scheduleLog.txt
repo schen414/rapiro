@@ -1,1 +1,206 @@
-/var/www/scheduleLog.txt
+{2017/04/30 03:40:12} RaspiMJPEG Version 5.8.02
+{2017/04/30 03:40:13} recommended video buffer size 65536
+{2017/04/30 03:40:13} h264 size set to 131072
+{2017/04/30 03:40:13} recommended video buffers 1
+{2017/04/30 03:40:13} h264 buffers set to recommended 1
+{2017/04/30 03:40:13} Error: Could not open mjpeg-destination
+{2017/04/30 03:40:13} Executing macro /var/www/html/macros/error_hard.sh "Could not open mjpeg-destination"  
+{2017/04/30 03:40:13} Opening FIFO 0 /var/www/html/FIFO 5
+{2017/04/30 03:40:13} Opening FIFO 1 /var/www/html/FIFO11 6
+{2017/04/30 03:40:13} MJPEG streaming, ready to receive commands
+{2017/04/30 03:40:13} send smd 9
+[2017/04/30 03:40:14] RaspiCam support started
+[2017/04/30 03:40:14] Capture Pipe already exists /var/www/html/FIFO1
+[2017/04/30 03:40:14] Scheduler loop is started
+[2017/04/30 03:40:15] New period detected 0
+[2017/04/30 03:40:15] Scheduled management tasks. Next at 1493527215
+{2017/04/30 03:40:18} RaspiMJPEG Version 5.8.02
+{2017/04/30 03:40:18} recommended video buffer size 65536
+{2017/04/30 03:40:18} h264 size set to 131072
+{2017/04/30 03:40:18} recommended video buffers 1
+{2017/04/30 03:40:18} h264 buffers set to recommended 1
+{2017/04/30 03:40:18} Error: Could not open mjpeg-destination
+{2017/04/30 03:40:18} Executing macro /var/www/html/macros/error_hard.sh "Could not open mjpeg-destination"  
+{2017/04/30 03:40:18} Opening FIFO 0 /var/www/html/FIFO 5
+{2017/04/30 03:40:18} Opening FIFO 1 /var/www/html/FIFO11 6
+{2017/04/30 03:40:18} MJPEG streaming, ready to receive commands
+{2017/04/30 03:40:18} send smd 9
+{2017/04/30 03:40:18} Starting command loop
+[2017/04/30 03:40:18] Reload parameters command requested
+[2017/04/30 03:40:18] Scheduler loop is started
+[2017/04/30 03:40:19] New period detected 0
+[2017/04/30 03:40:19] Scheduled management tasks. Next at 1493527219
+{2017/04/30 03:40:23} RaspiMJPEG Version 5.8.02
+{2017/04/30 03:40:24} recommended video buffer size 65536
+{2017/04/30 03:40:24} h264 size set to 131072
+{2017/04/30 03:40:24} recommended video buffers 1
+{2017/04/30 03:40:24} h264 buffers set to recommended 1
+{2017/04/30 03:40:24} Error: Could not open mjpeg-destination
+{2017/04/30 03:40:24} Executing macro /var/www/html/macros/error_hard.sh "Could not open mjpeg-destination"  
+{2017/04/30 03:40:24} Opening FIFO 0 /var/www/html/FIFO 5
+{2017/04/30 03:40:24} Opening FIFO 1 /var/www/html/FIFO11 6
+{2017/04/30 03:40:24} MJPEG streaming, ready to receive commands
+{2017/04/30 03:40:24} send smd 9
+{2017/04/30 03:40:24} Starting command loop
+[2017/04/30 03:40:24] Reload parameters command requested
+[2017/04/30 03:40:24] Scheduler loop is started
+[2017/04/30 03:40:25] New period detected 0
+[2017/04/30 03:40:25] Scheduled management tasks. Next at 1493527225
+{2017/04/30 03:40:29} RaspiMJPEG Version 5.8.02
+{2017/04/30 03:40:29} recommended video buffer size 65536
+{2017/04/30 03:40:29} h264 size set to 131072
+{2017/04/30 03:40:29} recommended video buffers 1
+{2017/04/30 03:40:29} h264 buffers set to recommended 1
+{2017/04/30 03:40:29} Error: Could not open mjpeg-destination
+{2017/04/30 03:40:29} Executing macro /var/www/html/macros/error_hard.sh "Could not open mjpeg-destination"  
+{2017/04/30 03:40:34} RaspiMJPEG Version 5.8.02
+{2017/04/30 03:40:34} recommended video buffer size 65536
+{2017/04/30 03:40:34} h264 size set to 131072
+{2017/04/30 03:40:34} recommended video buffers 1
+{2017/04/30 03:40:34} h264 buffers set to recommended 1
+{2017/04/30 03:40:34} Error: Could not open mjpeg-destination
+{2017/04/30 03:40:34} Executing macro /var/www/html/macros/error_hard.sh "Could not open mjpeg-destination"  
+{2017/04/30 03:40:35} Opening FIFO 0 /var/www/html/FIFO 5
+{2017/04/30 03:40:35} Opening FIFO 1 /var/www/html/FIFO11 6
+{2017/04/30 03:40:35} MJPEG streaming, ready to receive commands
+{2017/04/30 03:40:35} send smd 9
+{2017/04/30 03:40:35} Starting command loop
+[2017/04/30 03:40:35] Reload parameters command requested
+[2017/04/30 03:40:35] Scheduler loop is started
+[2017/04/30 03:40:36] New period detected 0
+[2017/04/30 03:40:36] Scheduled management tasks. Next at 1493527236
+{2017/04/30 03:40:40} RaspiMJPEG Version 5.8.02
+{2017/04/30 03:40:40} recommended video buffer size 65536
+{2017/04/30 03:40:40} h264 size set to 131072
+{2017/04/30 03:40:40} recommended video buffers 1
+{2017/04/30 03:40:40} h264 buffers set to recommended 1
+{2017/04/30 03:40:40} Error: Could not open mjpeg-destination
+{2017/04/30 03:40:40} Executing macro /var/www/html/macros/error_hard.sh "Could not open mjpeg-destination"  
+{2017/04/30 03:40:40} Opening FIFO 0 /var/www/html/FIFO 5
+{2017/04/30 03:40:40} Opening FIFO 1 /var/www/html/FIFO11 6
+{2017/04/30 03:40:40} MJPEG streaming, ready to receive commands
+{2017/04/30 03:40:40} send smd 9
+{2017/04/30 03:40:40} Starting command loop
+[2017/04/30 03:40:40] Reload parameters command requested
+[2017/04/30 03:40:40] Scheduler loop is started
+[2017/04/30 03:40:41] New period detected 0
+[2017/04/30 03:40:41] Scheduled management tasks. Next at 1493527241
+{2017/04/30 03:40:45} RaspiMJPEG Version 5.8.02
+{2017/04/30 03:40:45} recommended video buffer size 65536
+{2017/04/30 03:40:45} h264 size set to 131072
+{2017/04/30 03:40:45} recommended video buffers 1
+{2017/04/30 03:40:45} h264 buffers set to recommended 1
+{2017/04/30 03:40:45} Error: Could not open mjpeg-destination
+{2017/04/30 03:40:45} Executing macro /var/www/html/macros/error_hard.sh "Could not open mjpeg-destination"  
+{2017/04/30 03:40:45} Opening FIFO 0 /var/www/html/FIFO 5
+{2017/04/30 03:40:45} Opening FIFO 1 /var/www/html/FIFO11 6
+{2017/04/30 03:40:45} MJPEG streaming, ready to receive commands
+{2017/04/30 03:40:45} send smd 9
+{2017/04/30 03:40:45} Starting command loop
+[2017/04/30 03:40:45] Reload parameters command requested
+[2017/04/30 03:40:45] Scheduler loop is started
+[2017/04/30 03:40:46] New period detected 0
+[2017/04/30 03:40:46] Scheduled management tasks. Next at 1493527246
+{2017/04/30 03:40:50} RaspiMJPEG Version 5.8.02
+{2017/04/30 03:40:53} recommended video buffer size 65536
+{2017/04/30 03:40:53} h264 size set to 131072
+{2017/04/30 03:40:53} recommended video buffers 1
+{2017/04/30 03:40:53} h264 buffers set to recommended 1
+{2017/04/30 03:40:53} Opening FIFO 0 /var/www/html/FIFO 5
+{2017/04/30 03:40:53} Opening FIFO 1 /var/www/html/FIFO11 6
+{2017/04/30 03:40:53} MJPEG streaming, ready to receive commands
+{2017/04/30 03:40:53} Error: Could not open mjpeg-destination
+{2017/04/30 03:40:53} Executing macro /var/www/html/macros/error_hard.sh "Could not open mjpeg-destination"  
+{2017/04/30 03:40:53} send smd 9
+{2017/04/30 03:40:53} Starting command loop
+[2017/04/30 03:40:53] Reload parameters command requested
+[2017/04/30 03:40:53] Scheduler loop is started
+[2017/04/30 03:40:54] New period detected 0
+[2017/04/30 03:40:54] Scheduled management tasks. Next at 1493527254
+{2017/04/30 03:40:58} RaspiMJPEG Version 5.8.02
+{2017/04/30 03:41:05} recommended video buffer size 65536
+{2017/04/30 03:41:05} h264 size set to 131072
+{2017/04/30 03:41:05} recommended video buffers 1
+{2017/04/30 03:41:05} h264 buffers set to recommended 1
+{2017/04/30 03:41:05} Error: Could not open mjpeg-destination
+{2017/04/30 03:41:05} Executing macro /var/www/html/macros/error_hard.sh "Could not open mjpeg-destination"  
+{2017/04/30 03:41:10} RaspiMJPEG Version 5.8.02
+{2017/04/30 03:41:11} recommended video buffer size 65536
+{2017/04/30 03:41:11} h264 size set to 131072
+{2017/04/30 03:41:11} recommended video buffers 1
+{2017/04/30 03:41:11} h264 buffers set to recommended 1
+{2017/04/30 03:41:11} Error: Could not open mjpeg-destination
+{2017/04/30 03:41:11} Executing macro /var/www/html/macros/error_hard.sh "Could not open mjpeg-destination"  
+{2017/04/30 03:41:11} Opening FIFO 0 /var/www/html/FIFO 5
+{2017/04/30 03:41:11} Opening FIFO 1 /var/www/html/FIFO11 6
+{2017/04/30 03:41:11} MJPEG streaming, ready to receive commands
+{2017/04/30 03:41:11} send smd 9
+{2017/04/30 03:41:11} Starting command loop
+[2017/04/30 03:41:11] Reload parameters command requested
+[2017/04/30 03:41:11] Scheduler loop is started
+[2017/04/30 03:41:12] New period detected 0
+[2017/04/30 03:41:12] Scheduled management tasks. Next at 1493527272
+{2017/04/30 03:41:16} RaspiMJPEG Version 5.8.02
+{2017/04/30 03:41:23} recommended video buffer size 65536
+{2017/04/30 03:41:27} h264 size set to 131072
+{2017/04/30 03:41:27} recommended video buffers 1
+{2017/04/30 03:41:27} h264 buffers set to recommended 1
+{2017/04/30 03:41:39} RaspiMJPEG Version 5.8.02
+{2017/04/30 03:41:39} recommended video buffer size 65536
+{2017/04/30 03:41:39} h264 size set to 131072
+{2017/04/30 03:41:39} recommended video buffers 1
+{2017/04/30 03:41:39} h264 buffers set to recommended 1
+{2017/04/30 03:41:40} Opening FIFO 0 /var/www/html/FIFO 6
+{2017/04/30 03:41:40} Opening FIFO 1 /var/www/html/FIFO11 7
+{2017/04/30 03:41:40} MJPEG streaming, ready to receive commands
+{2017/04/30 03:41:40} send smd 9
+[2017/04/30 03:42:41] RaspiCam support started
+[2017/04/30 03:42:42] Capture Pipe already exists /var/www/html/FIFO1
+{2017/04/30 03:42:42} Starting command loop
+[2017/04/30 03:42:42] Scheduler loop is started
+[2017/04/30 03:42:42] Reload parameters command requested
+[2017/04/30 03:42:42] Scheduler loop is started
+[2017/04/30 03:42:43] New period detected 0
+[2017/04/30 03:42:43] Scheduled management tasks. Next at 1493527363
+{2017/04/30 03:43:34} SIGINT/SIGTERM received, stopping
+{2017/04/30 03:43:35} RaspiMJPEG Version 5.8.02
+{2017/04/30 03:43:35} recommended video buffer size 65536
+{2017/04/30 03:43:35} h264 size set to 131072
+{2017/04/30 03:43:35} recommended video buffers 1
+{2017/04/30 03:43:35} h264 buffers set to recommended 1
+{2017/04/30 03:43:35} Opening FIFO 0 /var/www/html/FIFO 6
+{2017/04/30 03:43:35} Opening FIFO 1 /var/www/html/FIFO11 7
+{2017/04/30 03:43:35} MJPEG streaming, ready to receive commands
+{2017/04/30 03:43:35} send smd 9
+[2017/04/30 03:43:37] RaspiCam support started
+[2017/04/30 03:43:37] Capture Pipe already exists /var/www/html/FIFO1
+{2017/04/30 03:43:37} Starting command loop
+[2017/04/30 03:43:37] Scheduler loop is started
+[2017/04/30 03:43:37] Reload parameters command requested
+[2017/04/30 03:43:37] Scheduler loop is started
+[2017/04/30 03:43:38] New period detected 0
+[2017/04/30 03:43:38] Scheduled management tasks. Next at 1493527418
+{2017/04/30 03:44:13} SIGINT/SIGTERM received, stopping
+{2017/04/30 03:45:40} RaspiMJPEG Version 5.8.02
+{2017/04/30 03:45:40} recommended video buffer size 65536
+{2017/04/30 03:45:40} h264 size set to 131072
+{2017/04/30 03:45:40} recommended video buffers 1
+{2017/04/30 03:45:40} h264 buffers set to recommended 1
+{2017/04/30 03:45:41} Opening FIFO 0 /var/www/html/FIFO 6
+{2017/04/30 03:45:41} Opening FIFO 1 /var/www/html/FIFO11 7
+{2017/04/30 03:45:41} MJPEG streaming, ready to receive commands
+{2017/04/30 03:45:41} send smd 9
+[2017/04/30 03:45:42] RaspiCam support started
+[2017/04/30 03:45:42] Capture Pipe already exists /var/www/html/FIFO1
+{2017/04/30 03:45:42} Starting command loop
+[2017/04/30 03:45:42] Scheduler loop is started
+[2017/04/30 03:45:42] Reload parameters command requested
+[2017/04/30 03:45:42] Scheduler loop is started
+[2017/04/30 03:45:43] New period detected 0
+[2017/04/30 03:45:43] Scheduled management tasks. Next at 1493527543
+{2017/04/30 03:46:50} Capturing started
+{2017/04/30 03:46:52} Capturing stopped
+{2017/04/30 03:46:52} Add /var/www/html/media/vi_0000_20170430_034650.mp4 to Box Queue at pos 0
+{2017/04/30 03:46:53} Start boxing /var/www/html/media/vi_0000_20170430_034650.mp4.h264 to /var/www/html/media/vi_0000_20170430_034650.mp4 Queue pos 0
+{2017/04/30 03:46:56} Finished boxing /var/www/html/media/vi_0000_20170430_034650.mp4 from Box Queue at pos 0
+{2017/04/30 03:46:56} Removed item from Box Queue

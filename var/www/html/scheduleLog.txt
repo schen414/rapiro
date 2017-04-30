@@ -1,0 +1,37 @@
+{2017/04/30 04:36:42} Error: Could not open/create video-file
+{2017/04/30 04:36:46} Error: Could not disable video port
+{2017/04/30 04:36:53} Error: Could not disable video port
+{2017/04/30 04:37:01} Error: Could not disable video port
+{2017/04/30 04:37:15} Error: Could not disable video port
+{2017/04/30 04:37:17} Error: Could not disable video port
+{2017/04/30 04:37:18} Error: Could not disable video port
+{2017/04/30 04:37:19} Error: Could not disable video port
+{2017/04/30 04:38:37} Error: Could not disable video port
+{2017/04/30 04:38:38} Error: Could not disable video port
+{2017/04/30 04:38:40} Error: Could not open/create image-file
+{2017/04/30 04:38:42} Error: Could not open/create image-file
+{2017/04/30 04:38:49} Error: Could not open/create image-file
+{2017/04/30 04:38:50} Error: Could not open/create image-file
+{2017/04/30 04:38:51} Error: Could not open/create image-file
+{2017/04/30 04:38:51} Error: Could not open/create image-file
+{2017/04/30 04:38:51} Error: Could not open/create image-file
+{2017/04/30 04:39:02} Error: Could not disable video port
+{2017/04/30 04:39:04} Stream halted
+{2017/04/30 04:39:05} recommended video buffer size 65536
+{2017/04/30 04:39:05} h264 size set to 131072
+{2017/04/30 04:39:05} recommended video buffers 1
+{2017/04/30 04:39:05} h264 buffers set to recommended 1
+{2017/04/30 04:39:05} Stream continued
+{2017/04/30 04:39:07} Error: Could not open/create video-file
+{2017/04/30 04:39:10} Error: Could not disable video port
+{2017/04/30 04:39:11} Error: Could not disable video port
+{2017/04/30 04:39:11} Error: Could not disable video port
+{2017/04/30 04:39:11} Error: Could not disable video port
+{2017/04/30 04:39:11} Error: Could not disable video port
+{2017/04/30 04:39:12} Error: Could not open/create image-file
+{2017/04/30 04:39:46} Error: Could not disable video port
+{2017/04/30 04:40:06} Error: Could not disable video port
+{2017/04/30 04:43:11} Error: Could not disable video port
+[2017/04/30 04:45:44] Scheduled management tasks. Next at 1493531144
+{2017/04/30 04:55:27} Error: Could not disable video port
+{2017/04/30 04:58:35} Error: Could not disable video port
